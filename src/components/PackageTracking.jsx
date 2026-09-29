@@ -6,7 +6,7 @@ export default function PackageTracking({ onNextSection, isLastStep }) {
   const [copied, setCopied] = useState(false);
   const [showMapModal, setShowMapModal] = useState(false);
 
-  const trackingNumber = 'LOVE-2-YEARS-EXPRESS';
+  const trackingNumber = 'I-L0V3-U-A1SY4H';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(trackingNumber);
@@ -23,23 +23,23 @@ export default function PackageTracking({ onNextSection, isLastStep }) {
       completed: true,
     },
     {
-      status: 'Sortir di Transit Hub Rindu',
+      status: 'PAKET BELUM DIKIRIM',
       time: 'Hari Ini - 10:30 WIB',
-      location: 'Hub Transit Spesial Ulang Tahun',
+      location: 'Di rumah axel',
       desc: 'Paket dinyatakan 100% Lolos QC Cinta & Siap Diantarkan ke Tuan Putri.',
       completed: true,
     },
     {
-      status: 'Sedang Dalam Perjalanan (In Transit)',
+      status: 'Paket Tertahan',
       time: 'Live Update 🚚💨',
       location: 'Menuju Alamat Rumah Kamu',
-      desc: 'Kurir Ekspres sedang membawa paket kado beneran ini menuju lokasimu. Ditunggu ya manis!',
+      desc: 'Pengiriman kekurangan ongkir mohon maaf ya cantik tunggu paketnya dikirim!',
       completed: true,
       current: true,
     },
     {
-      status: 'Estimasi Tiba di Tanganmu',
-      time: 'Segera Tiba! 🎉',
+      status: 'Estimasi Tiba di Tanganmu lumayan masih lama',
+      time: 'Semoga Segera Tiba! 🎉',
       location: 'Halaman Rumah / Kamar Kamu',
       desc: 'Siapkan senyuman terindahmu saat membuka kado ini nanti!',
       completed: false,
@@ -57,7 +57,7 @@ export default function PackageTracking({ onNextSection, isLastStep }) {
 
       <h2 className="section-title">Status Pengiriman Kado Ulang Tahun 🎁</h2>
       <p className="section-description">
-        Karena kado asli sedang dalam perjalanan ke rumahmu, kamu bisa memantau nomor resi & lokasinya di bawah ini!
+        Karena kado asli Belum dikirim aku buatin kaya gini dulu ya cantikk tunggu paketnya beneran dikirim nanti aku ubah wkwk!.
       </p>
 
       {/* Modern E-Commerce Courier Receipt Card */}
@@ -231,7 +231,7 @@ export default function PackageTracking({ onNextSection, isLastStep }) {
 
             <div className="modal-info-box">
               <Info size={16} />
-              <p>Paket kadomu sudah sangat dekat dengan lokasi tujuan. Siap-siap ya! ❤️</p>
+              <p>Nanti semoga kamu Seneng ya waktu terima. Siap-siap ya! ❤️</p>
             </div>
 
             <button className="btn-secondary-romantic" onClick={() => setShowMapModal(false)}>

@@ -6,36 +6,36 @@ export default function PhotoboxGallery({ onNextSection }) {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [flashEffect, setFlashEffect] = useState(false);
 
-  // Photos configuration
+  // Photos configuration — path disesuaikan dengan nama file aktual di disk
   const defaultPhotos = [
     {
       id: 1,
       src: '/assets/images/foto1.jpg',
-      fallback: '/assets/images/foto1.svg',
+      fallback: '/assets/images/foto2.JPG',
       title: 'Awal Mula Kebahagiaan ✨',
       date: 'Year 1 Memories',
       caption: 'Foto saat kita pertama kali merajut senyuman bersama.',
     },
     {
       id: 2,
-      src: '/assets/images/foto2.jpg',
-      fallback: '/assets/images/foto2.svg',
+      src: '/assets/images/foto2.JPG',
+      fallback: '/assets/images/foto1.jpg',
       title: '2 Tahun Penuh Tawa 💖',
       date: '2 Years Together',
       caption: 'Setiap hari bersamamu terasa indah dan tak tergantikan.',
     },
     {
       id: 3,
-      src: '/assets/images/foto3.jpg',
-      fallback: '/assets/images/foto3.svg',
+      src: '/assets/images/foto3.jpeg',
+      fallback: '/assets/images/foto1.jpg',
       title: 'My World & Everything 🌹',
       date: 'Forever & Always',
       caption: 'Terima kasih sudah selalu ada dan mencerahkan hariku.',
     },
     {
       id: 4,
-      src: '/assets/images/foto4.jpg',
-      fallback: '/assets/images/foto4.svg',
+      src: '/assets/images/foto4.JPG',
+      fallback: '/assets/images/foto1.jpg',
       title: 'Favorite Girl 💫',
       date: 'Birthday Special',
       caption: 'You will always be my number one Favorite Girl!',
